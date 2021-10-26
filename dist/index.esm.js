@@ -2103,7 +2103,7 @@ var links = [
             },
             {
                 label: "Docs",
-                href: "https://docs.witcherdefi.com/",
+                href: "https://witcherdefi.gitbook.io/witcher-defi/",
             },
             {
                 label: "Blog",
