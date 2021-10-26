@@ -2294,8 +2294,8 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(Nomics, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
-        React.createElement("img", { src: "/images/rugdoc-dark.png" })),
+        React.createElement(Nomics, { target: "_blank", rel: "noreferrer", href: "https://nomics.com/assets/witcher-witcher/" },
+        React.createElement("img", { src: "/images/nomics3.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;

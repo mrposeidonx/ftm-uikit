@@ -43,9 +43,7 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <Nomics target="_blank" rel="noreferrer" href="https://nomics.com/assets/witcher-witcher">
-        <img src="/images/nomics3.png" />
-      </Nomics>
+
       <PanelFooter {...props} />
     </StyledPanel>
   );
