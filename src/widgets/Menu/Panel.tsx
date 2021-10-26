@@ -34,11 +34,18 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   }
 `;
 
+const Nomics = styled.a<{ target: string; rel: string; href: string }>`
+  margin: 2%;
+`;
+
 const Panel: React.FC<Props> = (props) => {
   const { isPushed, showMenu } = props;
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
+      <Nomics target="_blank" rel="noreferrer" href="https://nomics.com/assets/witcher-witcher">
+        <img src="/images/nomics3.png" />
+      </Nomics>
       <PanelFooter {...props} />
     </StyledPanel>
   );

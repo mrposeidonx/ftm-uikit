@@ -2289,10 +2289,13 @@ var StyledPanel = styled.div(templateObject_1$D || (templateObject_1$D = __makeT
     var isPushed = _a.isPushed;
     return (isPushed ? SIDEBAR_WIDTH_FULL : SIDEBAR_WIDTH_REDUCED) + "px";
 });
+var Nomics = styled.a(templateObject_2$d || (templateObject_2$d = __makeTemplateObject(["\n  margin: 2%;\n"], ["\n  margin: 2%;\n"])));
 var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
+        React.createElement(Nomics, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+        React.createElement("img", { src: "/images/rugdoc-dark.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D;
